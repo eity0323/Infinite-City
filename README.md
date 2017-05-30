@@ -11,13 +11,19 @@ Created with Visual Studio 2013 using glew for OpenGL. There was code provided b
 The buildings were designed as modular pieces and the peices are randomly assembled at runtime. Buildings are given their unique shapes by effectively using their position as a seed. The appearance of an infinite span of buildings is acheived by rendering buildings inside the frustum with a fog effect applied so you cannot see the end.
 
 ## Cars
-The cars follow a series of straight and bezier curve paths and take random turns. If you hit 'SPACEBAR' while running the application, you can see a car from first-person view.
+The cars follow a series of straight lines and bezier curves while also taking random turns. If you hit 'SPACEBAR' while running the demo, you can see a car's first-person view.
 
 ## Clouds
 The clouds use an experimental shader that ray-traces a cube-shaped volumetric density cloud. The strange appearence of the center of clouds being more invisible than the edges is an intentional design.
 
 ## Lighting
 The lighting is achieved by applying a common technique called deferred lighting, in which the scene is rendered to a geometry buffer with the channels "color", "normals", and "position". After the render pass, a pass to calculate the lighting data is performed. This is done by approximating the lights as spheres (with backface rendering), and calculating the effect that each light would have on the scene and drawing it to the final backbuffer.
+
+In the demo, you can press the keys 1, 2, 3, and 4 to view the geometry buffer channels.
+
+## Bloom
+An common effect called "bloom" is also applied to the scene. The effect is simply a guassian blur appled to the bloom channel and then later is composited with the final scene in order to produce the final image. This effect allows the glowing lights and digital clouds to appear even brighter because the bright colors bleed out.
+
 
 ## Boids
 The last experimental feature of this demo is the random cubes flying around using a modified version of [Boids](https://en.wikipedia.org/wiki/Boids)
