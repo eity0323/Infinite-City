@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\gsim\gs.cpp">
+      <Filter>gsim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gsim\gs_array.cpp">
+      <Filter>gsim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gsim\gs_color.cpp">
+      <Filter>gsim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gsim\gs_mat.cpp">
+      <Filter>gsim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gsim\gs_quat.cpp">
+      <Filter>gsim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gsim\gs_vec.cpp">
+      <Filter>gsim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gsim\gs_vec2.cpp">
+      <Filter>gsim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app_main.cpp">
+      <Filter>proj1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app_window.cpp">
+      <Filter>proj1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gsim\gs_image.cpp">
+      <Filter>gsim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\sphere.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\window.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\utils.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\plane.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\cube.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\clouds\clouds.cpp">
+      <Filter>rtools\clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\framebuffer.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\screenquad.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\building\building_builder.cpp">
+      <Filter>rtools\building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\building\building_layer.cpp">
+      <Filter>rtools\building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\building\building_part.cpp">
+      <Filter>rtools\building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\blur.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\gbuffer.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\sphere_tex.cpp">
+      <Filter>rtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\highway\car.cpp">
+      <Filter>rtools\highway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\carpaths.cpp">
+      <Filter>proj1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rtools\boids\boid.cpp">
+      <Filter>rtools\boids</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\gsim\gs.h">
+      <Filter>gsim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gsim\gs_array.h">
+      <Filter>gsim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gsim\gs_color.h">
+      <Filter>gsim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gsim\gs_mat.h">
+      <Filter>gsim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gsim\gs_quat.h">
+      <Filter>gsim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gsim\gs_vec.h">
+      <Filter>gsim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gsim\gs_vec2.h">
+      <Filter>gsim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app_window.h">
+      <Filter>proj1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gsim\gs_image.h">
+      <Filter>gsim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\sphere.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\window.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\utils.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\plane.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\cube.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\clouds\clouds.h">
+      <Filter>rtools\clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\framebuffer.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\screenquad.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\building\building_builder.h">
+      <Filter>rtools\building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\building\building_layer.h">
+      <Filter>rtools\building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\building\building_part.h">
+      <Filter>rtools\building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\blur.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\gbuffer.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\sphere_tex.h">
+      <Filter>rtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\highway\car.h">
+      <Filter>rtools\highway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\carpaths.h">
+      <Filter>proj1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rtools\boids\boid.h">
+      <Filter>rtools\boids</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="gsim">
+      <UniqueIdentifier>{c9628ba3-d800-4870-ba96-41f6812019fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proj1">
+      <UniqueIdentifier>{d0b6dda1-cc69-488c-a43c-dad126663f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtools">
+      <UniqueIdentifier>{eac3d3fc-baf7-4d77-955a-f4e49d25e94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{5890ddb7-f01d-4597-8b64-55c8470e1295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\models">
+      <UniqueIdentifier>{6260f670-3e96-4cd0-9cf3-974da6c7c2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders">
+      <UniqueIdentifier>{2b2f12bd-025d-4172-89f3-713a4d8f5dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtools\clouds">
+      <UniqueIdentifier>{a686e518-26c0-44c1-ad50-9508434937db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders\clouds">
+      <UniqueIdentifier>{3687a483-33f7-41d7-8f20-4339211da909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtools\building">
+      <UniqueIdentifier>{9c34de95-de24-441c-b3e1-54aaec4b3774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders\post">
+      <UniqueIdentifier>{0b28753b-60b6-4dbe-bc4f-4bfbb29ae929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders\effects">
+      <UniqueIdentifier>{edc4448b-0f10-4107-8434-e69f90ac3287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders\blur">
+      <UniqueIdentifier>{fb4c1b21-9826-46e2-8d24-2984852ef0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders\sky">
+      <UniqueIdentifier>{c1697131-2d41-4189-b1e2-5a4f4da5e0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtools\highway">
+      <UniqueIdentifier>{14aea448-e456-4877-8b60-bcb714f17236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtools\boids">
+      <UniqueIdentifier>{5edfe0d1-8759-4ae1-a9ae-9c1fa96e3c98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\res\shaders\simpleShader_frag.glsl">
+      <Filter>res\shaders</Filter>
+    </None>
+    <None Include="..\res\shaders\simpleShader_vert.glsl">
+      <Filter>res\shaders</Filter>
+    </None>
+    <None Include="..\res\shaders\simpleShaderTex_frag.glsl">
+      <Filter>res\shaders</Filter>
+    </None>
+    <None Include="..\res\shaders\simpleShaderTex_vert.glsl">
+      <Filter>res\shaders</Filter>
+    </None>
+    <None Include="..\res\shaders\clouds\screen.fp">
+      <Filter>res\shaders\clouds</Filter>
+    </None>
+    <None Include="..\res\shaders\clouds\screen.vp">
+      <Filter>res\shaders\clouds</Filter>
+    </None>
+    <None Include="..\res\shaders\post\simpleShaderTex_frag.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\post\simpleShaderTex_vert.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\effects\pulse_fog_tex_frag.glsl">
+      <Filter>res\shaders\effects</Filter>
+    </None>
+    <None Include="..\res\shaders\effects\pulse_fog_tex_vert.glsl">
+      <Filter>res\shaders\effects</Filter>
+    </None>
+    <None Include="..\res\shaders\post\showDepthShader_frag.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\post\showDepthShader_vert.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\blur\blur_combine.fp">
+      <Filter>res\shaders\blur</Filter>
+    </None>
+    <None Include="..\res\shaders\blur\blur_combine.vp">
+      <Filter>res\shaders\blur</Filter>
+    </None>
+    <None Include="..\res\shaders\blur\blur_row.fp">
+      <Filter>res\shaders\blur</Filter>
+    </None>
+    <None Include="..\res\shaders\blur\blur_row.vp">
+      <Filter>res\shaders\blur</Filter>
+    </None>
+    <None Include="..\res\shaders\effects\fog_tex_frag.glsl">
+      <Filter>res\shaders\effects</Filter>
+    </None>
+    <None Include="..\res\shaders\effects\fog_tex_vert.glsl">
+      <Filter>res\shaders\effects</Filter>
+    </None>
+    <None Include="..\res\shaders\post\showNormShader_frag.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\post\showNormShader_vert.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\post\deffered_lighting_pass_frag.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\post\deffered_lighting_pass_vert.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\post\alphaShaderTex_frag.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\post\alphaShaderTex_vert.glsl">
+      <Filter>res\shaders\post</Filter>
+    </None>
+    <None Include="..\res\shaders\sky\simpleShaderTex_frag.glsl">
+      <Filter>res\shaders\sky</Filter>
+    </None>
+    <None Include="..\res\shaders\sky\simpleShaderTex_vert.glsl">
+      <Filter>res\shaders\sky</Filter>
+    </None>
+    <None Include="..\res\shaders\effects\car_fog_tex_frag.glsl">
+      <Filter>res\shaders\effects</Filter>
+    </None>
+    <None Include="..\res\shaders\effects\car_fog_tex_vert.glsl">
+      <Filter>res\shaders\effects</Filter>
+    </None>
+    <None Include="..\res\shaders\effects\ground_frag.glsl">
+      <Filter>res\shaders\effects</Filter>
+    </None>
+    <None Include="..\res\shaders\effects\ground_vert.glsl">
+      <Filter>res\shaders\effects</Filter>
+    </None>
+  </ItemGroup>
+</Project>
