@@ -20,6 +20,6 @@ The lighting is achieved by applying a common technique called deferred lighting
 ## Boids
 The last experimental feature of this demo is the random cubes flying around using a modified version of [Boids](https://en.wikipedia.org/wiki/Boids)
 
-#Contributors
+# Contributors
 Robert Hewitt - Building Procedure, Cars, Clouds, Lighting [Runouw](https://github.com/runouw)
 Kevin Rodriguez - Building design, design, ideas, Boids
