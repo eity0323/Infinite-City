@@ -24,7 +24,7 @@ The lighting is achieved by applying a common technique called deferred lighting
 In the demo, you can press the keys 1, 2, 3, and 4 to view the geometry buffer channels.
 
 ## Bloom
-An common effect called "bloom" is also applied to the scene. The effect is simply a gaussian blur appled to the bloom channel and then later is composited with the final scene in order to produce the final image. This effect allows the glowing lights and digital clouds to appear even brighter because the bright colors bleed out.
+A common effect called "bloom" is also applied to the scene. The effect is simply a gaussian blur applied to the bloom channel and then later is composited with the final scene in order to produce the final image. This effect allows the glowing lights and digital clouds to appear even brighter because the bright colors bleed out.
 
 
 ## Boids
