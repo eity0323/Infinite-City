@@ -5,12 +5,12 @@
 
 School project to create an infinite city. Uploading source so others can benefit.
 
-Created with Visual Studio 2013 using glew for OpenGL. There was code provided by the school that we had to use which is located in the "gsim" directory as well as "ogl_tools.h" and "ogl_tools.cpp".
+Created with Visual Studio 2013 using glew for OpenGL. There was code provided by the school that we had to use, which is located in the "gsim" directory as well as "ogl_tools.h" and "ogl_tools.cpp".
 
 # Features
 
 ## Infinite procedurally generated buildings
-The buildings were designed as modular pieces and the peices are randomly assembled at runtime. Buildings are given their unique shapes by effectively using their position as a seed. The appearance of an infinite span of buildings is acheived by rendering buildings inside the frustum with a fog effect applied so you cannot see the end.
+The buildings were designed as modular pieces and the pieces are randomly assembled at runtime. Buildings are given their unique shapes by effectively using their position as a seed. The appearance of an infinite span of buildings is achieved by rendering buildings inside the frustum with a fog effect applied so you cannot see the end.
 
 ## Cars
 The cars follow a series of straight lines and bezier curves while also taking random turns. If you hit 'SPACEBAR' while running the demo, you can see a car's first-person view.
@@ -24,7 +24,7 @@ The lighting is achieved by applying a common technique called deferred lighting
 In the demo, you can press the keys 1, 2, 3, and 4 to view the geometry buffer channels.
 
 ## Bloom
-An common effect called "bloom" is also applied to the scene. The effect is simply a guassian blur appled to the bloom channel and then later is composited with the final scene in order to produce the final image. This effect allows the glowing lights and digital clouds to appear even brighter because the bright colors bleed out.
+An common effect called "bloom" is also applied to the scene. The effect is simply a gaussian blur appled to the bloom channel and then later is composited with the final scene in order to produce the final image. This effect allows the glowing lights and digital clouds to appear even brighter because the bright colors bleed out.
 
 
 ## Boids
